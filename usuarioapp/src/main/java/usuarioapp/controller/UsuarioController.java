@@ -31,13 +31,13 @@ public class UsuarioController {
         return usuarioService.buscarPorId(id);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/usuarios{id}")
     public Usuario Atualizar(@PathVariable Long id, @RequestBody Usuario usuario)
     {
         return usuarioService.atualizar(id, usuario);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/usuarios/{id}")
     public void deletar(@PathVariable Long id) {
         usuarioService.deletar(id);
     }
