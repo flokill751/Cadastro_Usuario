@@ -2,9 +2,9 @@
 <br>
 Este projeto é uma API REST de gerenciamento de usuários construída com **Spring Boot**, **Spring Data JPA**, **MySQL** e **Docker**. Foi criada como prática para consolidar conhecimentos em backend moderno com Java.
 
----
+<br> <br>
 
- <h2 align="center"> O que foi aprendido</h2>
+ <h2 align="center"> O que foi aprendido </h2>
 
 Durante o desenvolvimento deste projeto, os seguintes conceitos e tecnologias foram explorados e praticados:
 
